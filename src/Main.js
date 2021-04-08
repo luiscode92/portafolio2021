@@ -6,8 +6,8 @@ import './Hamburgers.css';
 import Project from './Project.js';
 import projectone from './img/project-tn-01.png';
 import projecttwo from './img/project-tn-02.png';
-import projectthree from './img/project-tn-03.png';
-import projectfour from './img/project-tn-04.png';
+import projectthree from './img/hbnb.png';
+import projectfour from './img/esquilo.png';
 
 class Main extends Component {
   state = {
@@ -15,7 +15,6 @@ class Main extends Component {
     projectTwoImage: projecttwo,
     projectThreeImage: projectthree,
     projectFourImage: projectfour,
-
     hamburgerState: "off"
   }
 
@@ -72,12 +71,14 @@ class Main extends Component {
         <section className="projects">
           {window.innerWidth<=1009 ?
             <div className="left">
-              {/*<p className="projects-intro">
-                I design intuitive digital experiences<br/>in which <span className="bold">every element serves a purpose</span>.<br/>My designs give form to <span className="bold">product visions</span>,<br/>and <span className="bold">arouses emotion</span> in billions of users.
-          </p>*/}
-          <p className="projects-intro">
-          Hey, I'm Luis, I'm a Full-stack Software developer, passionate about, creativity, innovation, and empowerment, I always try to solve problems, through transversal thinking, I believe that nature has answers for everything, that's why I love the outdoors, I  am, the most intense worker when I do what I love
-          </p>
+              <p className="projects-intro">
+                Hey! I'm Luis, <span className="bold">Welcome to my portafolio!</span><br/> I'm a Full-stack software Engineer,
+                I have +5 years of experiences creating products and businesses for different needs and customers,
+                and +3 years coding web and mobile interfaces<br/>
+              </p>
+              <p className="projects-intro">
+                  I design intuitive digital experiences in which <span className="bold">every element serves a purpose</span>. My designs give form to <span className="bold">product visions</span>, and <span className="bold">arouses emotion</span> in billions of users.
+              </p>
               <Project
                 aos=""
                 image={this.state.projectOneImage}
@@ -87,7 +88,7 @@ class Main extends Component {
                 hmw={["Bus live tracker", <br/>, "for smartcities", <br/>, "and movile marketing"]}
                 color="rgba(11, 156, 150, 0.95)"
                 title="PUBLIC transportation"
-                category="Mobile Application"
+                category="Mobile app"
                 index="0"
               />
               <Project
@@ -96,20 +97,22 @@ class Main extends Component {
                 link="/schole"
                 hmwClass="hmw hmw-exception"
                 class="project-last"
-                hmw={["How might we create value", <br/>, "for the content providers", <br/>, "of an education platform?"]}
+                hmw={["Airbnb for long term rentals", <br/>, "segmented by needs", <br/>, "tastes and profile"]}
                 color="rgba(233, 111, 94, 0.95)"
-                title="Scholé Website Renewal"
-                category="PC / Mobile Web"
+                title="Airbnb clone"
+                category="Web app"
                 index="1"
           />
           </div> :
             <div className="left">
-              {/*<p className="projects-intro">
-                I design intuitive digital experiences<br/>in which <span className="bold">every element serves a purpose</span>.<br/>My designs give form to <span className="bold">product visions</span>,<br/>and <span className="bold">arouses emotion</span> in billions of users.
-        </p>*/}
-        <p className="projects-intro">
-          Hey, I'm Luis, I'm a Full-stack Software developer, passionate about, creativity, innovation, and empowerment, I always try to solve problems, through transversal thinking, I believe that nature has answers for everything, that's why I love the outdoors, I  am, the most intense worker when I do what I love
-          </p>
+              <p className="projects-intro">
+                    Hey! I'm Luis, <span className="bold">Welcome to my portafolio!</span><br/> I'm a Full-stack software Engineer,
+                    I have +5 years of experiences creating products and businesses for different needs and customers,
+                    and +3 years coding web and mobile interfaces<br/>
+              </p>
+              <p className="projects-intro">
+                    I create intuitive digital experiencesin which <span className="bold">every element serves a purpose</span>. My creations gives form to <span className="bold">product visions</span>.
+              </p>
               <Project
                 aos=""
                 image={this.state.projectOneImage}
@@ -119,7 +122,7 @@ class Main extends Component {
                 hmw={["Bus live tracker", <br/>, "for smartcities", <br/>, "and movile marketing"]}
                 color="rgba(11, 156, 150, 0.95)"
                 title="PUBLIC TRANSPORTATION"
-                category="Mobile Application"
+                category="Mobile app"
                 index="0"
               />
               <Project
@@ -128,10 +131,10 @@ class Main extends Component {
                 link="/schole"
                 hmwClass="hmw"
                 class="project-last"
-                hmw={["How might we create value", <br/>, "for the content providers", <br/>, "of an education platform?"]}
+                hmw={["Airbnb for long term rentals", <br/>, "segmented by needs", <br/>, "tastes and profile"]}
                 color="rgba(233, 111, 94, 0.95)"
-                title="Scholé Website Renewal"
-                category="PC / Mobile Web"
+                title="Airbnb Clone"
+                category="Web app"
                 index="1"
               />
             </div>
@@ -141,13 +144,13 @@ class Main extends Component {
               <Project
                 aos="fade-up"
                 image={this.state.projectTwoImage}
-                link="/prismlayout"
+                link="/experiences"
                 hmwClass="hmw hmw-exception"
                 class="project-default"
-                hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
+                hmw={["Live sessions class", <br/>, "that creates a more close and accessoble", <br/>, "teacher-student relationship."]}
                 color="rgba(251, 192, 96, 0.95)"
                 title="SKILLSHARE experiences"
-                category="PC Application"
+                category="Web app"
                 index="2"
               />
               <Project
@@ -156,10 +159,10 @@ class Main extends Component {
                 link="/framer30"
                 hmwClass="hmw hmw-exception"
                 class="project-default"
-                hmw={["How might we create", <br/>, "interactive prototypes", <br/>, "with React.js?"]}
+                hmw={["Airbnb for long term rentals", <br/>, "segmented by needs", <br/>, "tastes and profile"]}
                 color="rgba(114, 164, 238, 0.95)"
-                title="30 Days of Framer X"
-                category="Interactive Prototypes"
+                title="Esquilo app"
+                category="Mobile app"
                 index="3"
               />
             </div> :
@@ -167,13 +170,13 @@ class Main extends Component {
               <Project
                 aos=""
                 image={this.state.projectTwoImage}
-                link="/prismlayout"
+                link="/experiences"
                 hmwClass="hmw"
                 class="project-default"
-                hmw={["How might we create", <br/>, "a layout that is scalable", <br/>, "and intuitive to use?"]}
+                hmw={["Live sessions class", <br/>, "that creates a more close and accessoble", <br/>, "teacher-student relationship."]}
                 color="rgba(251, 192, 96, 0.95)"
                 title="SKILLSHARE experiences"
-                category="WEB Application"
+                category="Web app"
                 index="2"
               />
               <Project
@@ -182,10 +185,10 @@ class Main extends Component {
                 link="/framer30"
                 hmwClass="hmw"
                 class="project-default"
-                hmw={["How might we create", <br/>, "interactive prototypes", <br/>, "with React.js?"]}
+                hmw={["Airbnb for long term rentals", <br/>, "segmented by needs", <br/>, "tastes and profile"]}
                 color="rgba(114, 164, 238, 0.95)"
-                title="30 Days of Framer X"
-                category="Interactive Prototypes"
+                title="Esquilo app"
+                category="Mobile app"
                 index="3"
               />
             </div>

@@ -75,154 +75,58 @@ class Articles extends Component {
         <section className="articles">
           {window.innerWidth<=1009 ?
             <div className="left">
-              <p className="projects-intro">
-                Hey, I'm Luis, I'm a Full-stack Software developer, passionate about, creativity, innovation, and empowerment, I always try to solve problems, through transversal thinking, I believe that nature has answers for everything, that's why I love the outdoors, I  am, the most intense worker when I do what I love
+               <p className="projects-intro">
+                Hey! I'm Luis, <span className="bold">Welcome to my portafolio!</span><br/> I'm a Full-stack software Engineer,
+                I have +5 years of experiences creating products and businesses for different needs and customers,
+                and +3 years coding web and mobile interfaces<br/>
               </p>
-              <Article
-                aos=""
-                link="https://uxplanet.org/how-learning-to-code-impacted-my-daily-job-as-a-designer-d0b9583927ab"
-                class="article-default"
-                image={this.state.articleTwoImage}
-                title={["How Learning to Code Impacted", <br/>, "My Daily Job as a Designer"]}
-                subtitle="Going Beyond the Communication"
-                date="September 9th, 2018"
-                dateClass="article-date two-line"
-                index="0"
-              />
+              <p className="projects-intro">
+                  I design intuitive digital experiences in which <span className="bold">every element serves a purpose</span>. My designs give form to <span className="bold">product visions</span>, and <span className="bold">arouses emotion</span> in billions of users.
+              </p>
+              
               <Article
                 aos="fade-up"
-                link="https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1"
+                link="https://medium.com/@luiscode92/how-to-code-simple-shell-in-c-312ee5dbe154"
                 class="article-default"
                 image={this.state.articleFourImage}
-                title="30 Days of Framer X : Final Week"
-                subtitle="30 Prototypes in 30 Days"
+                title="How to code a shell in C"
+                subtitle="Let me intruduce you to Shellby"
                 date="November 16th, 2018"
                 dateClass="article-date one-line"
-                index="1"
+                index="0"
               />
-              <Article
-                aos="fade-up"
-                link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
-                class="article-default"
-                image={this.state.articleSixImage}
-                image={this.state.articleThreeImage}
-                title="Designing for PC Apps"
-                subtitle="4 Concepts for PC App Design"
-                date="July 14th, 2018"
-                dateClass="article-date one-line"
-                index="2"
-              />
+            
             </div> :
             <div className="left">
-             <p className="projects-intro">
-          Hey, I'm Luis, I'm a Full-stack Software developer, passionate about, creativity, innovation, and empowerment, I always try to solve problems, through transversal thinking, I believe that nature has answers for everything, that's why I love the outdoors, I  am, the most intense worker when I do what I love
-          </p>
+              <p className="projects-intro">
+                Hey! I'm Luis, <span className="bold">Welcome to my portafolio!</span><br/> I'm a Full-stack software Engineer,
+                I have +5 years of experiences creating products and businesses for different needs and customers,
+                and +3 years coding web and mobile interfaces<br/>
+              </p>
+              <p className="projects-intro">
+                  I design intuitive digital experiences in which <span className="bold">every element serves a purpose</span>. My designs give form to <span className="bold">product visions</span>, and <span className="bold">arouses emotion</span> in billions of users.
+              </p>
+            
               <Article
                 aos=""
-                link="https://uxplanet.org/how-learning-to-code-impacted-my-daily-job-as-a-designer-d0b9583927ab"
-                class="article-default"
-                image={this.state.articleTwoImage}
-                title={["How Learning to Code Impacted", <br/>, "My Daily Job as a Designer"]}
-                subtitle="Going Beyond the Communication"
-                date="September 9th, 2018"
-                dateClass="article-date two-line"
-                index="0"
-              />
-              <Article
-                aos=""
-                link="https://uxplanet.org/30-days-of-framer-x-final-week-d5d1f923cbc1"
+                link="https://medium.com/@luiscode92/how-to-code-simple-shell-in-c-312ee5dbe154"
                 class="article-default"
                 image={this.state.articleFourImage}
-                title="30 Days of Framer X : Final Week"
-                subtitle="30 Prototypes in 30 Days"
-                date="November 16th, 2018"
+                title="How to code a shell in C"
+                subtitle="Let me intruduce you to Shellby"
+                date="April 16th, 2020"
                 dateClass="article-date one-line"
-                index="1"
+                index="0"
               />
-              <Article
-                aos=""
-                link="https://uxplanet.org/designing-for-pc-apps-4554d8a0aa85"
-                class="article-default"
-                image={this.state.articleSixImage}
-                image={this.state.articleThreeImage}
-                title="Designing for PC Apps"
-                subtitle="4 Concepts for PC App Design"
-                date="July 14th, 2018"
-                dateClass="article-date one-line"
-                index="2"
-              />
+           
             </div>
           }
           {window.innerWidth<=1009 ?
             <div className="right">
-              <Article
-                aos="fade-up"
-                link="https://www.framer.com/blog/posts/code-for-designers/"
-                class="article-default mobile"
-                image={this.state.articleFiveImage}
-                title={["The Designer's Guide", <br/>, "to Learning Code"]}
-                subtitle="Resources to Help Reach Your Goal"
-                date="May 1st, 2019"
-                dateClass="article-date two-line"
-                index="3"
-              />
-              <Article
-                aos="fade-up"
-                link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
-                class="article-default"
-                image={this.state.articleOneImage}
-                title={["UX World 2017 Fall", <br/>, "Conference Summary"]}
-                subtitle="Insights from Top Tech Companies"
-                date="November 22nd, 2017"
-                dateClass="article-date two-line"
-                index="4"
-              />
-              <Article
-                aos="fade-up"
-                link="https://uxplanet.org/how-facebook-designs-for-vr-environments-d566127c11fe"
-                class="article-last"
-                image={this.state.articleSixImage}
-                title={["How Facebook Designs for", <br/>, "VR Environments"]}
-                subtitle="A Look into the Oculus Design"
-                date="December 3rd, 2017"
-                dateClass="article-date two-line"
-                index="5"
-              />
+             
             </div> :
             <div className="right">
-              <Article
-                aos=""
-                link="https://www.framer.com/blog/posts/code-for-designers/"
-                class="article-default"
-                image={this.state.articleFiveImage}
-                title={["The Designer's Guide", <br/>, "to Learning Code"]}
-                subtitle="Resources to Help Reach Your Goal"
-                date="May 1st, 2019"
-                dateClass="article-date two-line"
-                index="3"
-              />
-              <Article
-                aos=""
-                link="https://medium.com/@annelee_22736/ux-world-2017-fall-conference-summary-3399e847ce52"
-                class="article-default"
-                image={this.state.articleOneImage}
-                title={["UX World 2017 Fall", <br/>, "Conference Summary"]}
-                subtitle="Insights from Top Tech Companies"
-                date="November 22nd, 2017"
-                dateClass="article-date two-line"
-                index="4"
-              />
-              <Article
-                aos=""
-                link="https://uxplanet.org/how-facebook-designs-for-vr-environments-d566127c11fe"
-                class="article-last"
-                image={this.state.articleSixImage}
-                title={["How Facebook Designs for", <br/>, "VR Environments"]}
-                subtitle="A Look into the Oculus Design"
-                date="December 3rd, 2017"
-                dateClass="article-date two-line"
-                index="5"
-              />
+              
             </div>
           }
         </section>

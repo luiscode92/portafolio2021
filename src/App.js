@@ -4,7 +4,7 @@ import './App.css';
 import './Responsive.css';
 import Main from './Main.js';
 import PrismVideo from './projects/PrismVideo.js';
-import PrismLayout from './projects/PrismLayout.js';
+import SKExperiences from './projects/SKExperiences.js';
 import Schole from './projects/Schole.js';
 import Framer from './projects/Framer.js';
 import Articles from './Articles.js';
@@ -36,8 +36,8 @@ class App extends Component {
           component={PrismVideo}
         />
         <Route
-          path="/prismlayout"
-          component={PrismLayout}
+          path="/experiences"
+          component={SKExperiences}
         />
         <Route
           path="/schole"

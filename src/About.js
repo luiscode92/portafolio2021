@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
 import './Responsive.css';
-import profile from "./img/profile.png";
-import resume from "./Resume_Anne Lee.pdf";
+import profile from "./img/luis1.jpg";
+import resume from "./Luis-Sanjuan-CV.pdf";
 import link from "./img/link-icon.svg"
 
 class About extends Component {
@@ -68,41 +68,41 @@ class About extends Component {
             {window.innerWidth<=1009 ?
               <div className="about-content">
                 <div>
-                  Hi, my name is Luis.<br/><br/>
-                  I am a Fullstack software Developer passionate about creating technology, with great design. In the past I have worked for Skillshare, a NY base  Ed-tech company for creative people, and Sotvation a company that develops technologies for smarth cities. Here are a few things that describe me.<br/><br/><br/>
+                  Hi, my name is Luis Sanjuan.<br/><br/>
+                  I am a Full-stack Engineer passionate about creating tech products, with great design. In the past I have worked for Skillshare, a NY based Ed-tech company for creative people, Lounge HQ a L.A based startup that provides a virutal office space and Sotvation a company that develops technologies for smarth cities. Here are a few things that describe me.<br/><br/><br/>
                 </div>
                 <div data-aos="fade-up">
                   <span className="about-title">Experience Designing own products</span><br/><br/>
-                  I have successfully shipped 1 digital product from scratch up to date. Through this experience, I have gained expertise in early stage conceptualization, designing applications from end-to-end, and gradually scaling design. These projects cover a variety of platforms, including the web and mobile.<br/><br/><br/>
+                  I have successfully shipped 2 digital product from scratch up to date. Through this experience, I have gained expertise in early stage conceptualization, designing applications from end-to-end, and gradually scaling design. These projects cover a variety of platforms, including the web and mobile. Also provided design insights to a seed  capital startup<br/><br/><br/>
                 </div>
                 <div data-aos="fade-up">
-                  <span className="about-title">Experience Designing for Creative Tools</span><br/><br/>
-                  Most of my recent work has been focused around tools for empower creative people. The last mounths I worked for Skillshare, a online learning community for creatives. In the past I have worked on smarth cities multiplatform aplicgit clonations . Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints.<br/><br/><br/>
+                  <span className="about-title">Experience at startups </span><br/><br/>
+                  Most of my recent work has been focused around startups and tools for creative people. Previously I helped shipped Lounge a virtual hq app, before that I worked for Skillshare, a online learning community for creatives. In the past I have worked on smarth cities multiplatform apps. Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints.<br/><br/><br/>
                 </div>
                 <div data-aos="fade-up">
-                <span className="about-title">Qualified in Programming</span><br/><br/>
-                I am also qualified in programming; having received my Front End Developer Nanodegree from Udacity in 2018. I am capable of creating prototypes with web based technologies such as HTML, CSS, and Javascript; in fact, I designed and <a href="https://github.com/hermy0211/portfolio" target="_blank" rel="noopener noreferrer">coded<img className="link-icon" src={this.state.link} alt="Link Icon"/></a> this portfolio myself! My knowledge of technical limitations and possibilities also lead to strong designer-developer relationships.<br/><br/><br/>
+                <span className="about-title">Education and Skills</span><br/><br/>
+                I finished the Holberton School Fullstack Software Engineer program, with strong knowledge in Algorithms, C and Python. I am proficent in Javascript, NodeJs, Reactjs, Material-UI, Sass, Stylus, Flask among others in fact, I designed and <a href="https://github.com/hermy0211/portfolio" target="_blank" rel="noopener noreferrer">coded<img className="link-icon" src={this.state.link} alt="Link Icon"/></a> this portfolio myself! My experiecen working with startups gave me a strong sense of design and user experience.<br/><br/><br/>
                 Feel free to contact me for any inquiries about my portfolio and work opportunities!
                 </div>
               </div> :
 
               <div className="about-content">
-                <div>
-                  Hi, my name is Luis.<br/><br/>
-                  I am a Fullstack software Developer passionate about creating technology, with great design. In the past I have worked for Skillshare, a NY base  Ed-tech company for creative people, and Sotvation a company that develops technologies for smarth cities. Here are a few things that describe me.<br/><br/><br/>
+                  <div>
+                  Hi, my name is Luis Sanjuan.<br/><br/>
+                  I am a Full-stack Engineer passionate about creating tech products, with great design. In the past I have worked for Skillshare, a NY based Ed-tech company for creative people, Lounge HQ a L.A based startup that provides a virutal office space and Sotvation a company that develops technologies for smarth cities. Here are a few things that describe me.<br/><br/><br/>
                 </div>
-                <div data-aos="">
-                  <span className="about-title">Experience Designing from Brief to Shipment</span><br/><br/>
-                  I have successfully shipped 5 digital products from scratch up to date. Through this experience, I have gained expertise in early stage conceptualization, designing applications from end-to-end, and gradually scaling design. These projects cover a variety of platforms, including the web, mobile and desktop.<br/><br/><br/>
+                <div data-aos="fade-up">
+                  <span className="about-title">Experience Designing own products</span><br/><br/>
+                  I have successfully shipped 2 digital product from scratch up to date. Through this experience, I have gained expertise in early stage conceptualization, designing applications from end-to-end, and gradually scaling design. These projects cover a variety of platforms, including the web and mobile. Also provided design insights to a seed  capital startup<br/><br/><br/>
                 </div>
-                <div data-aos="">
-                  <span className="about-title">Experience Designing for Creative Tools</span><br/><br/>
-                  Most of my recent work has been focused around tools for creatives. I am currently working on Framer Web, a collaborative design prototyping tool. In the past I have worked on professional video production tools for streamers. Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints.<br/><br/><br/>
+                <div data-aos="fade-up">
+                  <span className="about-title">Experience at startups </span><br/><br/>
+                  Most of my recent work has been focused around startups and tools for creative people. Previously I helped shipped Lounge a virtual hq app, before that I worked for Skillshare, a online learning community for creatives. In the past I have worked on smarth cities multiplatform apps. Through this process, I have gained a good understanding of what it's like to work with intricate systems and technical constraints.<br/><br/><br/>
                 </div>
-                <div data-aos="">
-                  <span className="about-title">Qualified in Programming</span><br/><br/>
-                  I am also qualified in programming; having received my Front End Developer Nanodegree from Udacity in 2018. I am capable of creating prototypes with web based technologies such as HTML, CSS, and Javascript; in fact, I designed and <a href="https://github.com/hermy0211/portfolio" target="_blank" rel="noopener noreferrer">coded<img className="link-icon" src={this.state.link} alt="Link Icon"/></a> this portfolio myself! My knowledge of technical limitations and possibilities also lead to strong designer-developer relationships.<br/><br/><br/>
-                  Feel free to contact me for any inquiries about my portfolio and work opportunities!
+                <div data-aos="fade-up">
+                <span className="about-title">Education and Skills</span><br/><br/>
+                I finished the Holberton School Fullstack Software Engineer program, with strong knowledge in Algorithms, C and Python. I am proficent in Javascript, NodeJs, Reactjs, Material-UI, Sass, Stylus, Flask among others in fact, I designed and <a href="https://github.com/hermy0211/portfolio" target="_blank" rel="noopener noreferrer">coded<img className="link-icon" src={this.state.link} alt="Link Icon"/></a> this portfolio myself! My experiecen working with startups gave me a strong sense of design and user experience.<br/><br/><br/>
+                Feel free to contact me for any inquiries about my portfolio and work opportunities!
                 </div>
               </div>
             }

@@ -34,7 +34,7 @@ class ProjectNav extends Component {
     return (
       <div className="header-project">
         <div className="navigation">
-          <div className="anne"><Link to="/" style={{color: this.state.logoColor}}>Anne Lee</Link></div>
+          <div className="anne"><Link to="/" style={{color: this.state.logoColor}}>Luis Sanjuan</Link></div>
           <button className="hamburger hamburger--spin mobile" type="button" onClick={this.toggleMenu}>
             <span className="hamburger-box">
               <span className="hamburger-inner"></span>
